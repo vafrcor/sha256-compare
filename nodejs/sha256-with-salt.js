@@ -39,6 +39,6 @@ var hash= Sha256WithSalt(a_json, secret, salt);
 
 console.log('- var a json : '+a_json);
 console.log('- var secret : '+secret);
-console.log('- var salt : '+hash);
+console.log('- var salt : '+salt);
 console.log('- encrypted var : ', hash);
 
